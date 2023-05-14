@@ -12,12 +12,13 @@
   flex-direction: column;
   height: calc(37.5rem - 2.5rem);
   justify-content: space-between;
-  color: var(--clr-white);
+  
 }
 .site__name{
   font-weight: 300;
   text-align: center;
   font-size: 1.55rem;
+  color: var(--clr-white);
 }
 @media (min-width: 320px) { 
   .site__name{
@@ -100,6 +101,7 @@
 }
 .slogan{
   text-align: center;
+  color: var(--clr-white);
 }
 @media (min-width: 992px) { 
   .slogan{
